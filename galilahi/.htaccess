@@ -1,0 +1,27 @@
+#
+# GALILAHI BY @jckleinbourg
+#
+
+# GALILAHI MAIN BEAUTIFIER
+#IndexStyleSheet "/galilahi_skin/css/main.css"
+HeaderName /galilahi_skin/header.html
+ReadmeName /galilahi_skin/footer.html
+
+IndexOptions SuppressHTMLPreamble SuppressLastModified  SuppressSize SuppressDescription SuppressColumnSorting FancyIndexing IconWidth=32 IconHeight=32 IgnoreCase
+IndexOrderDefault Ascending Description
+
+# HIDE SOME FOLDERS AND FILES (*add yours*)
+IndexIgnore .htaccess /galilahi_skin
+
+# YOUR OWN 404
+ErrorDocument 404 /galilahi_skin/404.html
+
+## GALILAHI ICONS
+# DEFAULT ONE
+DefaultIcon /galilahi_skin/img/default64x64.png
+# BROWSING ONES
+AddIcon (PAR,/galilahi_skin/img/backarrow64x64.png) ..
+AddIcon (DIR,/galilahi_skin/img/folder64x64.png) ^^DIRECTORY^^
+AddIcon (DIR,/galilahi_skin/img/blank.gif) ^^BLANKICON^^
+# OTHER ONES (*add yours*)
+AddIcon (IMG,/galilahi_skin/img/default64x64.png) .jpg .png .ico .txt

@@ -1,0 +1,37 @@
+					</div><!-- /dir -->
+				</div><!-- /col -->
+			</div><!-- /row -->
+		</div><!-- /container -->
+
+		<!-- Some footer -->
+		<section id="contact"></section>
+		<div id="f">
+			<div class="container">
+				<div class="row">
+					<p>Galilahi uses Bootstrap <i class="fa fa-heart"></i> Sample Bootstrap theme by BlackTie.co, Illustration by MLangella</p>
+				</div>
+			</div>
+		</div>
+
+		 <!-- jQuery & Bootstrap core JavaScript -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+		<!-- Galilahizer -->
+		<script>
+			function replaceDirHTML(oldtext, newtext) {
+				var re = new RegExp(oldtext, "g");
+				document.getElementById("dir").innerHTML = document.getElementById("dir").innerHTML.replace(re, newtext);
+			}
+
+			replaceDirHTML("<hr>","");
+			replaceDirHTML("<pre>","<ul class='media-list'>");
+			replaceDirHTML("</pre>","</ul>");
+			replaceDirHTML("<img","<li class='media'><div class='media-left'><img class='media-object' ");
+			replaceDirHTML("<a","</div><div class='media-body'><h4><a");
+			replaceDirHTML("</a>","</a></h4></div></li>");
+
+			$('#dir ul li:first').remove();
+		</script>
+	</body>
+</html>
