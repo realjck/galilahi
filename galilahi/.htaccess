@@ -1,5 +1,5 @@
 #
-# GALILAHI BY @jckleinbourg
+# GALILAHI BY @realjck
 #
 
 # GALILAHI MAIN BEAUTIFIER
@@ -25,3 +25,4 @@ AddIcon (DIR,/galilahi_skin/img/folder64x64.png) ^^DIRECTORY^^
 AddIcon (DIR,/galilahi_skin/img/blank.gif) ^^BLANKICON^^
 # OTHER ONES (*add yours*)
 AddIcon (IMG,/galilahi_skin/img/default64x64.png) .jpg .png .ico .txt
+AddIcon (IMG,/galilahi_skin/img/web64x64.png) .html .php
