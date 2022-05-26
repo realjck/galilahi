@@ -6,5 +6,7 @@ Galilahi is a Bootstrap customisable theme built to enhance the experience of br
 
 Galilahi requires an Apache(2.2.11+) enabled HTTP server.
 
+Galilahi illustration by [Manuela Langella](https://twitter.com/manuelalangella)
+
 ## Installation
 * Copy and paste the contents of the `/galilahi` folder to your ftp folder

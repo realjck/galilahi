@@ -223,6 +223,12 @@ ul.media-list {
 a.navbar-brand {
     color: white !important;
 }
+#galilahi{
+	cursor:pointer;
+}
+p#path-text {
+    font-size: x-large;
+}
 
 
 /* Sticky footer styles
